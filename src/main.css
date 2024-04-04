@@ -1,0 +1,11 @@
+body{
+    background: url("./img/Image1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    background: #fafafa10;
+    backdrop-filter: blur(0.1rem);
+}
