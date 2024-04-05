@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Patrick Hand';
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(./img/Image1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container2{
+    max-width: 500px;
+    background: linear-gradient(#34c0d6, #d5f3f7);
+    margin: auto;
+    padding: 20px;;
+}
+
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn{
+    z-index: 10000;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.game-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.game-option {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.game-option:hover {
+    background-color: #0056b3;
+}
+
+.container3 {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #ffffff; /* Color de fondo para el contenedor */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+
+.option-button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 18px;
+    background-color: #f0f0f0; /* Color de fondo más claro para las opciones */
+    color: #333; /* Color del texto */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.option-button:hover{
+    background-color: #ddd; /* Color de fondo más oscuro al pasar el ratón */
+
+}
+
+.containerDash {
+    padding: 0 50px 50px 50px;
+    max-width: 85%;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #d5f3f7;
+    box-shadow: 0px 0px 10px 0px #333 inset;
+}
+
+.topics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.topic {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.tgame{
+    background-color: #0056b3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.tgame h2 {
+    color: #fff;
+}
+
+.topic:hover {
+    transform: translateY(-5px);
+}
+.tgame:hover {
+    transform: translateY(-5px);
+}
+
+.tgame p{
+    color: #d5f3f7;
+}
+
+.topic h2 {
+    color: #333;
+}
+
+.topic p {
+    color: #666;
+}
+
+/* Estilos para el contenedor de detalles del tema */
+.topic-details {
+    width: 800px;
+    height: 500px;
+    display: none; /* Por defecto, ocultar el contenedor de detalles */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    position: fixed;
+    top: 50%; /* Alinear verticalmente al centro */
+    left: 50%; /* Alinear horizontalmente al centro */
+    transform: translate(-50%, -50%); /* Centrar el contenedor */
+    z-index: 99; /* Asegurarse de que esté por encima de otros elementos */
+    overflow-y: auto; /* Agregar scroll vertical si es necesario */
+}
+
+.topic-details.show {
+    display: block; /* Mostrar el contenedor de detalles cuando se activa */
+}
+
+/* Estilos para los botones de tema */
+.topic-button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.topic-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los detalles del tema */
+.topic-details-container {
+    
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Estilos para los detalles del tema activo */
+.topic-details-container.active {
+    display: block; /* Mostrar el contenedor de detalles cuando se activa */
+}
+
+/* Estilos para el menú de navegación de detalles */
+.topic-details-menu {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.topic-details-menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.topic-details-menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.topic-details-menu li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para las secciones de detalles */
+.topic-details-section {
+    display: none;
+}
+
+/* Estilos para la sección activa de detalles */
+.topic-details-section.active {
+    display: block;
+}
+
+
+/* Estilos para los botones en el contenedor de detalles del tema 
+#closeButton, #nextButton {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+#closeButton:hover, #nextButton:hover {
+    background-color: #0056b3;
+} */
+
+/* Estilos para los botones */
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.topic-details {
+    display: none; /* Ocultar el contenedor por defecto */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    overflow-y: auto; /* Agregar scroll vertical si es necesario */
+}
+
+.topic-details.show {
+    display: block; /* Mostrar el contenedor cuando se activa */
+}
+
+.tex-decoration-none{
+    text-decoration: none;
+}
