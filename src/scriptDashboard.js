@@ -108,6 +108,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <!-- Detalles de la resta -->
                     <h2>Resta</h2>
                     <h3>Historia de la Resta</h3>
+
                     <p>La resta es una de las operaciones matemáticas más antiguas y básicas que se conocen. Se piensa que el ser humano del neolítico ya manejaba los principios matemáticos elementales, entre los que necesariamente estarían la adición y la resta, dado que estas operaciones son fáciles de evidenciar de cara a las provisiones agrícolas que aumentaban y disminuían conforme a la época del año.
                     Sin embargo, el estudio de la suma y su aplicación a tanto números naturales como fraccionarios comenzó con los antiguos egipcios, y continuó desarrollándose en aspectos más complejos con los babilonios, y especialmente con los chinos y los hindúes, quienes fueron los primeros en sumar números negativos. Pero recién en el Renacimiento el auge de la banca impuso la suma de decimales y de logaritmos vulgares.</p>
                     <h3>Propiedades de la Resta</h3>
