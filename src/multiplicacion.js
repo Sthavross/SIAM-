@@ -1,48 +1,48 @@
 const questions = [
     {
-        question: "En una fiesta, Ana recibió 24 caramelos y luego su amigo le dio 37 caramelos más. ¿Cuántos caramelos tiene ahora Ana en total?",
-        options: ["13", "45", "85", "61"],
-        correctAnswer: "61"
+        question: "¿Cuánto es 3 multiplicado por 4?",
+        options: ["7", "10", "12", "14"],
+        correctAnswer: "12"
     },
     {
-        question: "En una tienda de libros, Juan compró un libro por 51 dólares y otro por 16 dólares. ¿Cuánto gastó en total?",
-        options: ["18", "67", "32", "36"],
-        correctAnswer: "67"
+        question: "Si tienes 5 cajas de lápices y cada caja contiene 6 lápices, ¿cuántos lápices tienes en total?",
+        options: ["9", "20", "25", "30"],
+        correctAnswer: "30"
     },
     {
-        question: "En un partido de fútbol, el equipo local anotó 83 goles y el equipo visitante anotó 29 goles más. ¿Cuántos goles anotó el equipo visitante?",
-        options: ["3", "112", "54", "29"],
-        correctAnswer: "29"
+        question: "Si compras 2 paquetes de galletas y cada paquete tiene 8 galletas, ¿cuántas galletas tienes en total?",
+        options: ["12", "14", "16", "18"],
+        correctAnswer: "16"
     },
     {
-        question: "María tenía 42 chocolates y su hermano le dio 58 chocolates más. ¿Cuántos chocolates tienen en total?",
-        options: ["250", "88", "66", "100"],
-        correctAnswer: "100"
+        question: "Si hay 4 niños en una fiesta y cada niño tiene 3 globos, ¿cuántos globos hay en total?",
+        options: ["8", "10", "12", "14"],
+        correctAnswer: "12"
     },
     {
-        question: "En una clase, hay 97 estudiantes y llegaron 14 estudiantes más tarde. ¿Cuántos estudiantes hay en total?",
-        options: ["83", "111", "135", "163"],
-        correctAnswer: "111"
+        question: "Si tienes 3 filas de libros y en cada fila hay 5 libros, ¿cuántos libros tienes en total?",
+        options: ["8", "10", "12", "15"],
+        correctAnswer: "15"
     },
     {
-        question: "En una tienda, Juan compró 123 lápices y luego compró 45 más. ¿Cuántos lápices compró en total?",
-        options: ["168", "78", "54", "178"],
-        correctAnswer: "168"
+        question: "Si plantas 4 árboles en tu jardín y cada árbol tiene 2 manzanas, ¿cuántas manzanas tendrás en total?",
+        options: ["6", "7", "8", "9"],
+        correctAnswer: "8"
     },
     {
-        question: "María tiene 56 dulces y su amiga le dio 78 dulces más. ¿Cuántos dulces tienen en total?",
-        options: ["22", "134", "135", "146"],
-        correctAnswer: "134"
+        question: "Si hay 3 cajas de juguetes y cada caja contiene 7 juguetes, ¿cuántos juguetes hay en total?",
+        options: ["17", "18", "19", "20"],
+        correctAnswer: "21"
     },
     {
-        question: "Pedro tenía 89 pegatinas y luego compró 37 más en la tienda. ¿Cuántas pegatinas tiene ahora en total?",
-        options: ["133", "52", "126", "50"],
-        correctAnswer: "126"
+        question: "Si tienes 2 grupos de flores y en cada grupo hay 6 flores, ¿cuántas flores tienes en total?",
+        options: ["10", "11", "12", "13"],
+        correctAnswer: "12"
     },
     {
-        question: "565 + (-565) = ? ¿Cual es el total?",
-        options: ["1,130", "0", "987", "5"],
-        correctAnswer: "0"
+        question: "5 multiplicado por 4 es igual a ¿cuánto?",
+        options: ["15", "18", "20", "25"],
+        correctAnswer: "20"
     }
 ];
 
@@ -76,7 +76,6 @@ function displayQuestion() {
     // Reiniciar tiempo
     timeLeft = 60;
     updateTimer();
-
 }
 
 function checkAnswer(answer) {

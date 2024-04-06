@@ -1,48 +1,48 @@
 const questions = [
     {
-        question: "En una fiesta, Ana recibió 24 caramelos y luego su amigo le dio 37 caramelos más. ¿Cuántos caramelos tiene ahora Ana en total?",
-        options: ["13", "45", "85", "61"],
-        correctAnswer: "61"
+        question: "¿Cuánto es 2 elevado a la potencia de 3?",
+        options: ["4", "6", "8", "10"],
+        correctAnswer: "8"
     },
     {
-        question: "En una tienda de libros, Juan compró un libro por 51 dólares y otro por 16 dólares. ¿Cuánto gastó en total?",
-        options: ["18", "67", "32", "36"],
-        correctAnswer: "67"
+        question: "Si tienes 3 cajas, ¿cuántas formas distintas puedes organizarlas?",
+        options: ["6", "8", "9", "12"],
+        correctAnswer: "8"
     },
     {
-        question: "En un partido de fútbol, el equipo local anotó 83 goles y el equipo visitante anotó 29 goles más. ¿Cuántos goles anotó el equipo visitante?",
-        options: ["3", "112", "54", "29"],
-        correctAnswer: "29"
+        question: "Si tienes 4 colores de crayones y quieres hacer combinaciones de 2 colores cada una, ¿cuántas combinaciones puedes hacer?",
+        options: ["6", "8", "12", "16"],
+        correctAnswer: "6"
     },
     {
-        question: "María tenía 42 chocolates y su hermano le dio 58 chocolates más. ¿Cuántos chocolates tienen en total?",
-        options: ["250", "88", "66", "100"],
-        correctAnswer: "100"
+        question: "¿Cuántos números de tres dígitos puedes formar usando los dígitos 1, 2 y 3 sin repetir ningún dígito?",
+        options: ["3", "6", "9", "12"],
+        correctAnswer: "6"
     },
     {
-        question: "En una clase, hay 97 estudiantes y llegaron 14 estudiantes más tarde. ¿Cuántos estudiantes hay en total?",
-        options: ["83", "111", "135", "163"],
-        correctAnswer: "111"
+        question: "Si tienes 2 opciones para el desayuno, 3 opciones para el almuerzo y 2 opciones para la cena, ¿cuántas combinaciones diferentes de comidas puedes hacer durante un día?",
+        options: ["4", "6", "8", "12"],
+        correctAnswer: "12"
     },
     {
-        question: "En una tienda, Juan compró 123 lápices y luego compró 45 más. ¿Cuántos lápices compró en total?",
-        options: ["168", "78", "54", "178"],
-        correctAnswer: "168"
+        question: "Si tienes 5 libros y quieres colocarlos en una estantería de 2 niveles, ¿cuántas formas diferentes puedes organizar los libros?",
+        options: ["8", "10", "15", "25"],
+        correctAnswer: "10"
     },
     {
-        question: "María tiene 56 dulces y su amiga le dio 78 dulces más. ¿Cuántos dulces tienen en total?",
-        options: ["22", "134", "135", "146"],
-        correctAnswer: "134"
+        question: "Si tienes 2 cartas de invitación y cada carta puede ser para 3 personas diferentes, ¿cuántas personas puedes invitar en total?",
+        options: ["5", "6", "8", "9"],
+        correctAnswer: "9"
     },
     {
-        question: "Pedro tenía 89 pegatinas y luego compró 37 más en la tienda. ¿Cuántas pegatinas tiene ahora en total?",
-        options: ["133", "52", "126", "50"],
-        correctAnswer: "126"
+        question: "¿Cuántos posibles resultados diferentes hay al lanzar un dado 3 veces?",
+        options: ["12", "18", "24", "36"],
+        correctAnswer: "36"
     },
     {
-        question: "565 + (-565) = ? ¿Cual es el total?",
-        options: ["1,130", "0", "987", "5"],
-        correctAnswer: "0"
+        question: "¿Cuánto es 4 elevado a la potencia de 2?",
+        options: ["6", "8", "12", "16"],
+        correctAnswer: "16"
     }
 ];
 
@@ -76,7 +76,6 @@ function displayQuestion() {
     // Reiniciar tiempo
     timeLeft = 60;
     updateTimer();
-
 }
 
 function checkAnswer(answer) {

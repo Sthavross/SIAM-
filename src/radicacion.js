@@ -1,48 +1,53 @@
 const questions = [
     {
-        question: "En una fiesta, Ana recibió 24 caramelos y luego su amigo le dio 37 caramelos más. ¿Cuántos caramelos tiene ahora Ana en total?",
-        options: ["13", "45", "85", "61"],
-        correctAnswer: "61"
+        question: "¿Cuánto es la raíz cuadrada de 9?",
+        options: ["2", "3", "4", "5"],
+        correctAnswer: "3"
     },
     {
-        question: "En una tienda de libros, Juan compró un libro por 51 dólares y otro por 16 dólares. ¿Cuánto gastó en total?",
-        options: ["18", "67", "32", "36"],
-        correctAnswer: "67"
+        question: "¿Cuánto es la raíz cuadrada de 16?",
+        options: ["3", "4", "5", "6"],
+        correctAnswer: "4"
     },
     {
-        question: "En un partido de fútbol, el equipo local anotó 83 goles y el equipo visitante anotó 29 goles más. ¿Cuántos goles anotó el equipo visitante?",
-        options: ["3", "112", "54", "29"],
-        correctAnswer: "29"
+        question: "¿Cuánto es la raíz cuadrada de 25?",
+        options: ["4", "5", "6", "7"],
+        correctAnswer: "5"
     },
     {
-        question: "María tenía 42 chocolates y su hermano le dio 58 chocolates más. ¿Cuántos chocolates tienen en total?",
-        options: ["250", "88", "66", "100"],
-        correctAnswer: "100"
+        question: "¿Cuánto es la raíz cuadrada de 36?",
+        options: ["5", "6", "7", "8"],
+        correctAnswer: "6"
     },
     {
-        question: "En una clase, hay 97 estudiantes y llegaron 14 estudiantes más tarde. ¿Cuántos estudiantes hay en total?",
-        options: ["83", "111", "135", "163"],
-        correctAnswer: "111"
+        question: "¿Cuánto es la raíz cuadrada de 49?",
+        options: ["6", "7", "8", "9"],
+        correctAnswer: "7"
     },
     {
-        question: "En una tienda, Juan compró 123 lápices y luego compró 45 más. ¿Cuántos lápices compró en total?",
-        options: ["168", "78", "54", "178"],
-        correctAnswer: "168"
+        question: "¿Cuánto es la raíz cúbica de 8?",
+        options: ["2", "3", "4", "5"],
+        correctAnswer: "2"
     },
     {
-        question: "María tiene 56 dulces y su amiga le dio 78 dulces más. ¿Cuántos dulces tienen en total?",
-        options: ["22", "134", "135", "146"],
-        correctAnswer: "134"
+        question: "¿Cuánto es la raíz cúbica de 27?",
+        options: ["3", "4", "5", "6"],
+        correctAnswer: "3"
     },
     {
-        question: "Pedro tenía 89 pegatinas y luego compró 37 más en la tienda. ¿Cuántas pegatinas tiene ahora en total?",
-        options: ["133", "52", "126", "50"],
-        correctAnswer: "126"
+        question: "¿Cuánto es la raíz cúbica de 64?",
+        options: ["4", "5", "6", "7"],
+        correctAnswer: "4"
     },
     {
-        question: "565 + (-565) = ? ¿Cual es el total?",
-        options: ["1,130", "0", "987", "5"],
-        correctAnswer: "0"
+        question: "¿Cuánto es la raíz cúbica de 125?",
+        options: ["5", "6", "7", "8"],
+        correctAnswer: "5"
+    },
+    {
+        question: "¿Cuánto es la raíz cuarta de 16?",
+        options: ["2", "3", "4", "5"],
+        correctAnswer: "2"
     }
 ];
 
@@ -76,7 +81,6 @@ function displayQuestion() {
     // Reiniciar tiempo
     timeLeft = 60;
     updateTimer();
-
 }
 
 function checkAnswer(answer) {
