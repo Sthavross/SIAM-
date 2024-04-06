@@ -1,48 +1,48 @@
 const questions = [
     {
-        question: "En una fiesta, Ana recibió 24 caramelos y luego su amigo le dio 37 caramelos más. ¿Cuántos caramelos tiene ahora Ana en total?",
-        options: ["13", "45", "85", "61"],
-        correctAnswer: "61"
+        question: "¿Cuánto es 12 dividido por 3?",
+        options: ["3", "4", "6", "8"],
+        correctAnswer: "4"
     },
     {
-        question: "En una tienda de libros, Juan compró un libro por 51 dólares y otro por 16 dólares. ¿Cuánto gastó en total?",
-        options: ["18", "67", "32", "36"],
-        correctAnswer: "67"
+        question: "Si tienes 20 dulces y los quieres repartir en 4 bolsas iguales, ¿cuántos dulces habrá en cada bolsa?",
+        options: ["3", "4", "5", "6"],
+        correctAnswer: "5"
     },
     {
-        question: "En un partido de fútbol, el equipo local anotó 83 goles y el equipo visitante anotó 29 goles más. ¿Cuántos goles anotó el equipo visitante?",
-        options: ["3", "112", "54", "29"],
-        correctAnswer: "29"
+        question: "Si tienes 16 monedas y quieres repartirlas entre 4 amigos, ¿cuántas monedas recibirá cada uno?",
+        options: ["2", "3", "4", "5"],
+        correctAnswer: "4"
     },
     {
-        question: "María tenía 42 chocolates y su hermano le dio 58 chocolates más. ¿Cuántos chocolates tienen en total?",
-        options: ["250", "88", "66", "100"],
-        correctAnswer: "100"
+        question: "Si tienes 24 galletas y quieres colocarlas en bolsas de 6 galletas cada una, ¿cuántas bolsas necesitarás?",
+        options: ["2", "3", "4", "5"],
+        correctAnswer: "4"
     },
     {
-        question: "En una clase, hay 97 estudiantes y llegaron 14 estudiantes más tarde. ¿Cuántos estudiantes hay en total?",
-        options: ["83", "111", "135", "163"],
-        correctAnswer: "111"
+        question: "Si tienes 15 libros y quieres colocarlos en estantes con capacidad para 3 libros cada uno, ¿cuántos estantes necesitarás?",
+        options: ["3", "4", "5", "6"],
+        correctAnswer: "5"
     },
     {
-        question: "En una tienda, Juan compró 123 lápices y luego compró 45 más. ¿Cuántos lápices compró en total?",
-        options: ["168", "78", "54", "178"],
-        correctAnswer: "168"
+        question: "Si tienes 30 caramelos y quieres repartirlos entre 6 niños, ¿cuántos caramelos recibirá cada niño?",
+        options: ["3", "4", "5", "6"],
+        correctAnswer: "5"
     },
     {
-        question: "María tiene 56 dulces y su amiga le dio 78 dulces más. ¿Cuántos dulces tienen en total?",
-        options: ["22", "134", "135", "146"],
-        correctAnswer: "134"
+        question: "Si tienes 18 fichas y quieres repartirlas en grupos de 2 fichas cada uno, ¿cuántos grupos podrás formar?",
+        options: ["6", "7", "8", "9"],
+        correctAnswer: "9"
     },
     {
-        question: "Pedro tenía 89 pegatinas y luego compró 37 más en la tienda. ¿Cuántas pegatinas tiene ahora en total?",
-        options: ["133", "52", "126", "50"],
-        correctAnswer: "126"
+        question: "Si tienes 21 paquetes de crayones y los quieres colocar en cajas con capacidad para 3 paquetes cada una, ¿cuántas cajas necesitarás?",
+        options: ["5", "6", "7", "8"],
+        correctAnswer: "7"
     },
     {
-        question: "565 + (-565) = ? ¿Cual es el total?",
-        options: ["1,130", "0", "987", "5"],
-        correctAnswer: "0"
+        question: "20 dividido por 4 es igual a ¿cuánto?",
+        options: ["3", "4", "5", "6"],
+        correctAnswer: "5"
     }
 ];
 
@@ -76,7 +76,6 @@ function displayQuestion() {
     // Reiniciar tiempo
     timeLeft = 60;
     updateTimer();
-
 }
 
 function checkAnswer(answer) {

@@ -92,7 +92,7 @@ function checkAnswer(answer) {
         setTimeout(displayQuestion, 1000); // Muestra la próxima pregunta después de 1 segundo
     } else {
         setTimeout(function () {
-            window.location.href = "dashboard.html"; // Redirige de vuelta al dashboard cuando se hayan respondido todas las preguntas
+            window.location.href = "dashboardPrincipal.html"; // Redirige de vuelta al dashboard cuando se hayan respondido todas las preguntas
         }, 1000);
     }
 }
@@ -106,7 +106,7 @@ function updateTimer() {
             displayQuestion(); // Muestra la próxima pregunta
         } else {
             setTimeout(function () {
-                window.location.href = "dashboard.html"; // Redirige de vuelta al dashboard cuando se hayan respondido todas las preguntas
+                window.location.href = "dashboardPrincipal.html"; // Redirige de vuelta al dashboard cuando se hayan respondido todas las preguntas
             }, 1000);
         }
     }
