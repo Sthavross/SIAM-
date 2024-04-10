@@ -1,2 +1,2 @@
 #Bloquando conexion to firebase
-./app/firebase.js
+./src/app/firebase.js
