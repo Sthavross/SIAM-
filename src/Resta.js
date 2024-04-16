@@ -43,7 +43,13 @@ const questions = [
         question: "96 - (-55) = ? ¿Cual es el total?",
         options: ["15", "0", "151", "41"],
         correctAnswer: "151"
+    },
+    {
+        question: "Si tienes 15 manzanas y regalas 7, ¿cuántas manzanas te quedan?",
+        options: ["4", "6", "8", "10"],
+        correctAnswer: "8"
     }
+    
 ];
 
 let currentQuestion = 0;
