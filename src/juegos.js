@@ -1,4 +1,3 @@
-//import './app/logout.js'
 
 document.addEventListener('DOMContentLoaded', function () {
     const topics = document.querySelectorAll('.topic');
@@ -6,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let currentTopicIndex = 0; // Índice del tema actual
 
     // Definir las rutas de redirección para cada juego
-    const topicIds = ['trivia', 'rompecabeza', 'algebra', 'calculo'];
+    const topicIds = ['sudoku', 'rompecabeza', '2048', 'calculo'];
 
 
     // Agregar un evento de clic a cada tema
@@ -26,8 +25,24 @@ document.addEventListener('DOMContentLoaded', function () {
         // Definir los detalles específicos para cada tema
         let topicDetailsHTML;
         switch (topicId) {
-            case 'trivia':
-                topicDetailsHTML = ``;
+            case 'sudoku':
+                topicDetailsHTML = `
+                <h2>SUDOKU</h2>
+                <h3>¡Bienvenido al desafío SUDOKU!</h3>
+                <p>El objetivo del juego es completar el tablero de tal manera que cada fila, columna y región contenga los números del 1 al 9, sin repetir ningún número.</p>
+                <h3>Reglas</h3>
+                <ol>
+                    <li>Cada fila debe contener todos los números del 1 al 9 sin repetir.</li>
+                    <li>Cada columna debe contener todos los números del 1 al 9 sin repetir.</li>
+                    <li>Cada región (subgrupo de 3x3 celdas) debe contener todos los números del 1 al 9 sin repetir.</li>
+                </ol>
+
+                <h2>Ejemplo</h2>
+                <img src="./img/sudoku.jpg" alt="Ejemplo Sudoku" style="display: block; margin: 0 auto;">
+
+                <p>Para comenzar, simplemente haz clic en el botón "¡Comenzar!" a continuación. ¡Que empiece la diversión!</p>
+                <button onclick="window.location.href = 'sudoku.html';">¡Comenzar!</button>
+                `;
                 break;
             case 'rompecabeza':
                 topicDetailsHTML =`
@@ -37,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <p>En este fascinante juego, te enfrentarás a un desafío numérico que pondrá a prueba tu habilidad para organizar y visualizar patrones. El objetivo es simple pero requiere concentración y destreza: debes colocar los números del 1 al 8 en orden ascendente, dejando un espacio vacío al final. Este juego no solo te entretendrá, sino que también estimulará tu capacidad para resolver problemas y mejorar tu agudeza mental.</p>
                 <p>El rompecabezas está diseñado para desafiarte y entretenerte mientras te sumerges en la emocionante tarea de ordenar los números en la secuencia correcta. Cada movimiento cuenta, ¡así que piensa cuidadosamente antes de actuar!</p>
 
-                <h2>ejemplo</h2>
+                <h2>Ejemplo</h2>
                 <img src="./img/rompe cabeza.jpg" alt="Rompecabezas de Números" style="display: block; margin: 0 auto;">
 
                 <p>Para comenzar, simplemente haz clic en el botón "¡Comenzar!" a continuación. ¡Que empiece la diversión!</p>
@@ -45,8 +60,18 @@ document.addEventListener('DOMContentLoaded', function () {
 `;
 
                 break;
-            case 'algebra':
-                topicDetailsHTML =``;
+            case '2048':
+                topicDetailsHTML =`
+                <!-- Detalles de el Rompe Cabezas -->
+                <h2>Juego 2048</h2>
+                <h3>¡Bienvenido al desafío 2048!</h3>
+                <p>El juego 2048 es un juego de rompecabezas donde el objetivo es combinar los números en la cuadrícula para alcanzar el número 2048.</p>
+
+                <h2>Ejemplo</h2>
+                <img src="./img/2048.png" alt="2048" style="display: block; margin: 0 auto;">
+
+                <p>Para comenzar, simplemente haz clic en el botón "¡Comenzar!" a continuación. ¡Que empiece la diversión!</p>
+                <button onclick="window.location.href = '2048.html';">¡Comenzar!</button>`;
                 break;
             case 'calculo':
                 topicDetailsHTML =``;

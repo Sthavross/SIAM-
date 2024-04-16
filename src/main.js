@@ -7,6 +7,7 @@ import './app/signupForm.js'
 import './app/signinForm.js'
 import './scriptDashboard.js'
 import './app/logout.js'
+import './juegos.js'
 import './app/googleLogin.js'
 
 
