@@ -27,7 +27,18 @@ document.addEventListener('DOMContentLoaded', function () {
         let topicDetailsHTML;
         switch (topicId) {
             case 'trivia':
-                topicDetailsHTML = ``;
+                topicDetailsHTML = `                
+                <!-- Detalles de la Trivia de Conceptos Matemáticos -->
+                <h2>Trivia de Conceptos Matemáticos</h2>
+                <h3>¡Bienvenido a la Trivia de Conceptos Matemáticos!</h3>
+                <p>En este desafiante juego, pondrás a prueba tus conocimientos sobre una variedad de conceptos matemáticos. Desde teoremas hasta definiciones, cada pregunta te llevará a explorar diferentes aspectos de las matemáticas.</p>
+                <p>La trivia está diseñada para desafiarte y entretenerte mientras pones a prueba tus habilidades matemáticas. Cada respuesta correcta te acercará más a la victoria, ¡así que piensa cuidadosamente antes de responder!</p>
+                
+                <h2>Ejemplo</h2>
+                <p>Para comenzar, simplemente haz clic en el botón "¡Comenzar!" a continuación. ¡Que empiece la diversión!</p>
+                <button onclick="window.location.href = 'trivias.html';">¡Comenzar!</button>
+                
+`;
                 break;
             case 'rompecabeza':
                 topicDetailsHTML =`
