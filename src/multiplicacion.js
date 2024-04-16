@@ -43,7 +43,13 @@ const questions = [
         question: "5 multiplicado por 4 es igual a ¿cuánto?",
         options: ["15", "18", "20", "25"],
         correctAnswer: "20"
+    },
+    {
+        question: "¿Cuál es el resultado de multiplicar 8 por 7?",
+        options: ["48", "56", "64", "72"],
+        correctAnswer: "56"
     }
+    
 ];
 
 let currentQuestion = 0;

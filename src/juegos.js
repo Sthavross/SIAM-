@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Definir los detalles específicos para cada tema
         let topicDetailsHTML;
         switch (topicId) {
+<<<<<<< HEAD
             case 'sudoku':
                 topicDetailsHTML = `
                 <h2>SUDOKU</h2>
@@ -43,6 +44,21 @@ document.addEventListener('DOMContentLoaded', function () {
                 <p>Para comenzar, simplemente haz clic en el botón "¡Comenzar!" a continuación. ¡Que empiece la diversión!</p>
                 <button onclick="window.location.href = 'sudoku.html';">¡Comenzar!</button>
                 `;
+=======
+            case 'trivia':
+                topicDetailsHTML = `                
+                <!-- Detalles de la Trivia de Conceptos Matemáticos -->
+                <h2>Trivia de Conceptos Matemáticos</h2>
+                <h3>¡Bienvenido a la Trivia de Conceptos Matemáticos!</h3>
+                <p>En este desafiante juego, pondrás a prueba tus conocimientos sobre una variedad de conceptos matemáticos. Desde teoremas hasta definiciones, cada pregunta te llevará a explorar diferentes aspectos de las matemáticas.</p>
+                <p>La trivia está diseñada para desafiarte y entretenerte mientras pones a prueba tus habilidades matemáticas. Cada respuesta correcta te acercará más a la victoria, ¡así que piensa cuidadosamente antes de responder!</p>
+                
+                <h2>Ejemplo</h2>
+                <p>Para comenzar, simplemente haz clic en el botón "¡Comenzar!" a continuación. ¡Que empiece la diversión!</p>
+                <button onclick="window.location.href = 'trivias.html';">¡Comenzar!</button>
+                
+`;
+>>>>>>> e59cc1966caaf1ed8cc1520b6959d412a9799dde
                 break;
             case 'rompecabeza':
                 topicDetailsHTML =`

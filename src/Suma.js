@@ -43,7 +43,13 @@ const questions = [
         question: "565 + (-565) = ? ¿Cual es el total?",
         options: ["1,130", "0", "987", "5"],
         correctAnswer: "0"
+    },
+    {
+        question: "¿Cuánto es la suma de 25 más 37?",
+        options: ["52", "60", "62", "72"],
+        correctAnswer: "62"
     }
+    
 ];
 
 let currentQuestion = 0;

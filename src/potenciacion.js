@@ -43,7 +43,13 @@ const questions = [
         question: "¿Cuánto es 4 elevado a la potencia de 2?",
         options: ["6", "8", "12", "16"],
         correctAnswer: "16"
+    },
+    {
+        question: "¿Cuál es el resultado de elevar 3 al cubo?",
+        options: ["6", "9", "27", "18"],
+        correctAnswer: "27"
     }
+    
 ];
 
 let currentQuestion = 0;
