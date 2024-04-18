@@ -7,10 +7,13 @@ body{
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Patrick Hand', cursive;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
 }
 
 .navbar{
-    background: #fafafa10;
+    background: #24121210;
     backdrop-filter: blur(0.1rem);
 }
 

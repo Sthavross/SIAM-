@@ -43,11 +43,6 @@ const questions = [
         question: "20 dividido por 4 es igual a ¿cuánto?",
         options: ["3", "4", "5", "6"],
         correctAnswer: "5"
-    },
-    {
-        question: "¿Cuánto es 20 dividido por 4?",
-        options: ["3", "4", "5", "6"],
-        correctAnswer: "5"
     }
     
 ];

@@ -1,10 +1,10 @@
-//let matrix = shuffleMatrix()
+let matrix = shuffleMatrix()
 //trampa :)
-  let matrix = [
-      ['1', '2', '3' ],
-      ['4', '5', '6' ],
-      ['7', '', '8' ],
- ]
+//   let matrix = [
+//       ['1', '2', '3' ],
+//       ['4', '5', '6' ],
+//       ['7', '', '8' ],
+//  ]
 let board = document.querySelector('.board');
 //tiempo 
 // let timerElement = document.getElementById('timer');
