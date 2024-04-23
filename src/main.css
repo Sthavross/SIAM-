@@ -37,7 +37,7 @@ footer {
     width: 100%;
 }
 
-/* estilo del boton
+
 .play-button {
     padding: 10px 20px;
     font-size: 16px;
@@ -46,4 +46,9 @@ footer {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}*/
+}
+
+.centra-boton {
+    text-align: center;
+    padding-top: 20px;
+}
